@@ -11,6 +11,7 @@
  *
  * For more information on configuring datastores, check out:
  * https://sailsjs.com/config/datastores
+ * https://sailsjs.com/documentation/reference/configuration/sails-config-datastores
  */
 
 module.exports.datastores = {
@@ -47,9 +48,10 @@ module.exports.datastores = {
     * 3. Then pass it in, along with a connection URL.                         *
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
+    * protocol://user:password@host:port/databaseName                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-mysql',
+    url: 'mysql://root@localhost/myprofile',
 
   },
 
