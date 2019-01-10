@@ -6,6 +6,7 @@
  *
  * For more information on configuring custom routes, check out:
  * https://sailsjs.com/anatomy/config/routes-js
+ * If you’re using standalone actions, so that you had an api/controllers/sandwich/make.js file, a more intuitive syntax exists which uses the path to the action (relative to api/controllers)
  */
 
 module.exports.routes = {

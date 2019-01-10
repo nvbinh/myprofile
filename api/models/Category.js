@@ -23,8 +23,7 @@ module.exports = {
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
     name: { type: 'string' },
-    description: { type: 'string' },
-    news: { required: false, collection: 'news', via: 'categories' }
+    description: { type: 'string' }
   },
 
 };

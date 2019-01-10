@@ -25,7 +25,7 @@ module.exports = {
 
     title: { type: 'string' },
     description: { type: 'string' },
-    categories: { collection: 'category', via: 'owners' }
+    categoryId: { model: 'category' }
   },
 
 };
