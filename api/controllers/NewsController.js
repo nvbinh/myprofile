@@ -10,12 +10,17 @@ module.exports = {
     //a Create action
     create: function(req, res, next) {
         var params = req.params.all();
+        sails.log('I am a debug-level message', params);
         News.create(params, function(err, news) {
             if (err) return next(err);
             
             res.status(201);
             res.json(news);
         });
+    },
+
+    find: function(req, res) {
+        
     }
 };
 
