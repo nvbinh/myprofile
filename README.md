@@ -35,9 +35,13 @@ Solved: How to fix this
 https://github.com/felixrieseberg/windows-build-tools/issues/33
 npm --add-python-to-path='true' --debug install --global windows-build-tools
 
+You also should downgrate nodejs to version 6.1.0. It's not working with node 8.x
+https://github.com/node-inspector/node-inspector/issues/1013
 
 2. config\security.js
 csrf: true
 This config prevents using postman CORS in your app when you make a POST request. You will get error Forbidden when it's true in postman
 https://stackoverflow.com/questions/49201793/sails-js-forbidden-post-request
 
+3. Config CORS
+https://stackoverflow.com/questions/30694033/sails-js-cors-for-post-method?rq=1

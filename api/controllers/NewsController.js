@@ -20,7 +20,7 @@ module.exports = {
     },
 
     find: function(req, res) {
-        
+        sails.log('I am a debug-level');
     }
 };
 
