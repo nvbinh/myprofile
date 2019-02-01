@@ -18,7 +18,7 @@ module.exports.policies = {
   'view-homepage-or-redirect': true,
   'deliver-contact-form-message': true,
 
-  // By pass the login user instead of show unauthorized error in calling api
-  'api/v1/news': true,
+  // Allow anyone to access the news create action, even if they're not logged in.
+  'news/create': true,
 
 };
