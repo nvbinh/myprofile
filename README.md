@@ -45,3 +45,11 @@ https://stackoverflow.com/questions/49201793/sails-js-forbidden-post-request
 
 3. Config CORS
 https://stackoverflow.com/questions/30694033/sails-js-cors-for-post-method?rq=1
+
+4. Many ways to define an action
+https://sailsjs.com/documentation/concepts/actions-and-controllers#?classic-actions
+
+
+NOTE:
+warn: Action middleware (POLICY: true (alwaysAllow)) was bound to a target `/news/create` that doesn't match any registered actions.
+https://sailsjs.com/documentation/reference/application/advanced-usage/sails-register-action
