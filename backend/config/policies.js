@@ -19,6 +19,6 @@ module.exports.policies = {
   'deliver-contact-form-message': true,
 
   // Allow anyone to access the news create action, even if they're not logged in.
-  'news/create': true,
+  'api/news/create': true,
 
 };

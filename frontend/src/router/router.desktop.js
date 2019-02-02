@@ -61,7 +61,7 @@ export default new Router({
       path: '/article',
       name: 'Article',
       component: resolve => {
-        require(['./../components/Login.desktop.vue'], resolve)
+        require(['./../components/article/Article.component.vue'], resolve)
       }
     },
     {
