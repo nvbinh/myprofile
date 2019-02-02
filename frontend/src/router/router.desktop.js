@@ -58,6 +58,13 @@ export default new Router({
       }
     },
     {
+      path: '/article',
+      name: 'Article',
+      component: resolve => {
+        require(['./../components/Login.desktop.vue'], resolve)
+      }
+    },
+    {
       path: '*',
       component: resolve => {
         require(['./../components/Home.desktop.vue'], resolve)

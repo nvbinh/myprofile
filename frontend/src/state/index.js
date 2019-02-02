@@ -4,6 +4,7 @@ import user from './user/user.module'
 import product from './product/product.module'
 import products from './products/products.module'
 import basket from './basket/basket.module'
+import article from './article/article.module'
 
 Vue.use(Vuex)
 
@@ -28,7 +29,8 @@ export default new Vuex.Store({
     User: user,
     Product: product,
     Products: products,
-    Basket: basket
+    Basket: basket,
+    Article: article
   },
 
   state: {
