@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-  
+
     //a Create action
     create: function(req, res, next) {
         var params = req.allParams();

@@ -2,7 +2,9 @@ import Vue from 'vue'
 import VueResource from 'vue-resource'
 import VueTranslate from 'vue-translate-plugin'
 import store from './../src/state/index'
+// import { apiHost } from './config.env'
 
+// Vue.http.options.root = apiHost
 Vue.use(VueResource)
 Vue.use(VueTranslate)
 
