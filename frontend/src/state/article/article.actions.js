@@ -4,9 +4,9 @@ export default {
   getArticles (context) {
     return new Promise((resolve, reject) => {
       Vue.http
-        .get('api/news')
-        .then(({ response }) => {
-          context.commit('SET_ARTICLE', response)
+        .get('http://localhost:1337/api/news')
+        .then(({ body }) => {
+          context.commit('SET_ARTICLE', body)
           resolve()
         })
         .catch(error => reject(error))
