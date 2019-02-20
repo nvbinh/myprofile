@@ -7,9 +7,11 @@ export default {
     await this.$store.dispatch('getArticles')
   },
 
-  articles: {
-    get () {
-      return this.$store.state.Articles.articles
+  computed: {
+    article: {
+      get () {
+        return this.$store.state.Article.article
+      }
     }
   }
 }

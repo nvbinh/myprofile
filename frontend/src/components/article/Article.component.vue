@@ -1,7 +1,7 @@
 <template>
 	<div class="row justify-content-md-center">
 		<div class="col-6">
-			{{ articles }}
+			{{ article }}
 			<pre>
 				[
 					{
