@@ -10,7 +10,7 @@
 
 module.exports.policies = {
 
-  '*': 'is-logged-in',
+  '*': true,
 
   // Bypass the `is-logged-in` policy for:
   'entrance/*': true,
@@ -19,6 +19,6 @@ module.exports.policies = {
   'deliver-contact-form-message': true,
 
   // Allow anyone to access the news create action, even if they're not logged in.
-  'news/create': true,
+  'api/news/create': true,
 
 };

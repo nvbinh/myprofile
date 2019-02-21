@@ -49,6 +49,16 @@ https://stackoverflow.com/questions/30694033/sails-js-cors-for-post-method?rq=1
 4. Many ways to define an action
 https://sailsjs.com/documentation/concepts/actions-and-controllers#?classic-actions
 
+5. Always Unauthorized error
+https://stackoverflow.com/questions/50123460/sails-1-0-post-route-gives-403-error
+
+6. Blueprints configuration
+https://stackoverflow.com/questions/36430609/sails-js-api-executing-without-route-configuration-and-controller-method
+
+7. Provide parameters with slashes intead of ? and &&
+https://stackoverflow.com/questions/49799707/getting-404-error-with-sails-js-one-way-association
+Not: http://localhost:1337/api/news/create?title=test&&description=description&&categoryId=1
+Like this: POST http://localhost:1337/manufacturers/5acf62cf080d700c2209d40b/manufacturer_tabs
 
 NOTE:
 warn: Action middleware (POLICY: true (alwaysAllow)) was bound to a target `/news/create` that doesn't match any registered actions.
