@@ -12,7 +12,7 @@
 module.exports.routes = {
 
   // New Routes
-  'GET /api/news': 'NewsController.find',
+  'GET /api/news': { controller: 'NewsController', action: 'find' },
   'POST /api/news/create': { controller: 'NewsController', action: 'create', csrf: false },
   //  ╦ ╦╔═╗╔╗ ╔═╗╔═╗╔═╗╔═╗╔═╗
   //  ║║║║╣ ╠╩╗╠═╝╠═╣║ ╦║╣ ╚═╗

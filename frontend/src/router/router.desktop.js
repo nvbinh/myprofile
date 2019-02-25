@@ -65,6 +65,13 @@ export default new Router({
       }
     },
     {
+      path: '/article/add',
+      name: 'Add Article',
+      component: resolve => {
+        require(['./../components/article/add/AddArticle.component.vue'], resolve)
+      }
+    },
+    {
       path: '*',
       component: resolve => {
         require(['./../components/Home.desktop.vue'], resolve)
